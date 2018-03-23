@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Library</title>
+    <link href="img/icon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- Bootstrap -->
+    <link href="bootstrap-4.0.0-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<style>
+    body {
+        background-color: #f1f2f6;
+        height: 100vh;
+    }
+</style>
+<body>
+<footer>
+    <div class="container" style="height: auto;padding: auto">
+        <nav class="navbar navbar-dark bg-dark">
+            <!-- Navbar content -->
+            <a class="navbar-brand" href="#"><img src="img/logo.png" class="logo-img"> Library</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Sign In</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sign Up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Add book</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </div>
+</footer>
+<main>
+    <div class="container-fluid " style="height: auto;padding: auto">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 main-block text-center">
+                <div class="col-md-6 author-block double-block">
+                    <span class="fields">Author's field</span>
+                    <div class="input-group mb-3 author-drop-down-block">
+                        <div class="input-group-prepend">
+                            <label class="input-group-text" for="inputGroupSelect01">Author</label>
+                        </div>
+                        <select class="custom-select" id="inputGroupSelect01">
+                            <option value="1">George Raymond Richard Martin</option>
+                            <option value="2">Joanne Rowling</option>
+                            <option value="3">Arthur Ignatius Conan Doyle</option>
+                        </select>
+                    </div>
+                    <button type="button" class="btn btn-primary ">Show books</button>
+                </div>
+                <div class="col-md-6 book-block double-block">
+                    <span class="fields">Book's field</span>
+                    <ul class="list-group">
+                        <li class="list-group-item">Game of Trones I</li>
+                        <li class="list-group-item">Game of Trones II</li>
+                        <li class="list-group-item">Game of Trones III</li>
+                        <li class="list-group-item">Game of Trones VI</li>
+                        <li class="list-group-item">Game of Trones V</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<header>
+
+</header>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="bootstrap-4.0.0-dist/js/popper.min.js"></script>
+<script src="bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
